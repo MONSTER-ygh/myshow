@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GDK" />
+<title>首页_YGH个人博客 - 一个站在web前端设计之路的个人博客网站</title>
+<meta name="keywords" content="个人博客,YGH个人博客,个人博客模板,YGH" />
+<meta name="description" content="YGH个人博客" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<link href="css/m.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script src="js/page.js"></script>
+</head>
+<body>
+<header>
+  <div id="mnav">
+    <div class="logo"><a href="index.html">YGH个人博客</a></div>
+    <h2 id="mnavh"><span class="navicon"></span></h2>
+    <ul id="starlist">
+      <li><a href="index.html">网站首页</a></li>
+      <li><a href="about.html">关于我</a></li>
+      <li><a href="share.html">模板分享</a></li>
+      <li><a href="list.html">学无止境</a></li>
+      <li><a href="info.html">慢生活</a></li>
+      <li><a href="gbook.html">留言</a></li>
+    </ul>
+  </div>
+  <script>
+window.onload = function ()
+{
+	var oH2 = document.getElementById("mnavh"); 
+	var oUl = document.getElementById("starlist");  
+	oH2.onclick = function ()
+	{
+		var style = oUl.style;
+		style.display = style.display == "block" ? "none" : "block";
+		oH2.className = style.display == "block" ? "open" : ""
+	}
+}
+</script> 
+</header>
+<div class="line46"></div>
+<article>
+  <div class="pics">
+    <ul>
+      <li><i><a href="./share/3.html"><img src="images/t01.jpg"></a></i><span>这组图片中的静物等非常的日系</span></li>
+      <li><i><a href="./share/1.html"><img src="images/t04.jpg"></a></i><span>这组图片中的静物等非常的日系</span></li>
+      <li><i><a href="./share/2.html"><img src="images/t03.jpg"></a></i><span>这组图片中的静物等非常的日系</span></li>
+    </ul>
+  </div>
+  <div class="blank"></div>
+  <div class="leftbox">
+    <div class="tuijian">
+      <h2 class="hometitle"><span><a href="/">模板分享</a><a href="/">学无止境</a><a href="/">慢生活</a><a href="/">热门标签</a></span>特别推荐</h2>
+      <ul>
+		  <li>
+		    <div class="tpic"><img src="images/b01.png"></div>
+		    <b>个人博客，属于我的小世界！</b><span>不管你现在是一个人走在异乡的街道上始终没有找到一丝归属感，还是你在跟朋友们一起吃饭开心地笑着的时候闪过一丝落寞。...</span><a href="./share/1.html" class="readmore">阅读原文</a>
+		    </li>
+		  <li>
+		    <div class="tpic"><img src="images/b02.jpg"></div>
+		    <b>安静地做一个爱设计的man</b><span>让世界拥有它的脚步，让我保有我的茧。当溃烂已极的心灵再不想做一丝一毫的思索时，就让我静静回到我的茧内，以回忆为睡榻，以悲哀为覆被，这是我唯一的美丽。...</span><a href="./share/2.html" class="readmore">阅读原文</a>
+		    </li>
+		  <li>
+		    <div class="tpic"><img src="images/b03.jpg"></div>
+		    <b>【匆匆那些年】总结个人博客经历的这四年</b><span>网页设计好不好看,颜色是毋庸置疑要排首位的,所以关于颜色的搭配技巧以及原则,对于每一个要学习web前端设计的新手来说,这都是一个重要的学习过程.在本教程中我们将与你分享...</span><a href="./share/3.html" class="readmore">阅读原文</a>
+		    </li>
+        <li>
+          <div class="tpic"><img src="images/b04.jpg"></div>
+          <b>个人博客，属于我的小世界！</b><span>不管你现在是一个人走在异乡的街道上始终没有找到一丝归属感，还是你在跟朋友们一起吃饭开心地笑着的时候闪过一丝落寞。...</span><a href="./share/1.html" class="readmore">阅读原文</a>
+		  </li>
+        <li>
+          <div class="tpic"><img src="images/b05.jpg"></div>
+          <b>安静地做一个爱设计的man</b><span>让世界拥有它的脚步，让我保有我的茧。当溃烂已极的心灵再不想做一丝一毫的思索时，就让我静静回到我的茧内，以回忆为睡榻，以悲哀为覆被，这是我唯一的美丽。...</span><a href="./share/2.html" class="readmore">阅读原文</a>
+		  </li>
+        <li>
+          <div class="tpic"><img src="images/b01.png"></div>
+          <b>【匆匆那些年】总结个人博客经历的这四年</b><span>网页设计好不好看,颜色是毋庸置疑要排首位的,所以关于颜色的搭配技巧以及原则,对于每一个要学习web前端设计的新手来说,这都是一个重要的学习过程.在本教程中我们将与你分享...</span><a href="./share/3.html" class="readmore">阅读原文</a>
+		  </li>
+      </ul>
+    </div>
+    <div class="newblogs">
+      <h2 class="hometitle">最新文章</h2>
+      <ul id="list" style="display:none;">
+        <li>
+          <h3 class="blogtitle"><a href="./share/1.html" target="_blank" >个人博客，属于我的小世界！</a></h3>
+          <div class="bloginfo"><span class="blogpic"><a href="./share/1.html" title=""><img src="images/t01.jpg"  /></a></span>
+            <p>网页设计好不好看,颜色是毋庸置疑要排首位的,所以关于颜色的搭配技巧以及原则,对于每一个要学习web前端设计的新手来说,这都是一个重要的学习过程.在本教程中我们将与你分享...</p>
+          </div>
+          <div class="autor"><span class="lm f_l"><a href="index.html">YGH个人博客</a></span><span class="dtime f_l">2014-02-19</span><span class="viewnum f_l">浏览（<a href="#" onclick="return false">459</a>）</span><span class="pingl f_l">喜欢（<a href="#" onclick="return false">30</a>）</span><span class="f_r"><a href="./share/1.html" class="more">阅读原文</a></span></div>
+        </li>
+        <li>
+          <h3 class="blogtitle"><a href="./share/2.html" target="_blank" >安静地做一个爱设计的man</a></h3>
+          <div class="bloginfo"><span class="blogpic"><a href="./share/2.html" title=""><img src="images/b01.png"  /></a></span>
+            <p>网页设计好不好看,颜色是毋庸置疑要排首位的,所以关于颜色的搭配技巧以及原则,对于每一个要学习web前端设计的新手来说,这都是一个重要的学习过程.在本教程中我们将与你分享...</p>
+          </div>
+          <div class="autor"><span class="lm f_l"><a href="index.html">YGH个人博客</a></span><span class="dtime f_l">2014-02-19</span><span class="viewnum f_l">浏览（<a href="#" onclick="return false">459</a>）</span><span class="pingl f_l">喜欢（<a href="#" onclick="return false">30</a>）</span><span class="f_r"><a href="./share/2.html" class="more">阅读原文</a></span></div>
+        </li>
+        <li>
+          <h3 class="blogtitle"><a href="./share/3.html" target="_blank" >【匆匆那些年】总结个人博客经历的这四年</a></h3>
+          <div class="bloginfo"><span class="blogpic"><a href="./share/3.html" title=""><img src="images/b06.jpg"  /></a></span>
+            <p>"时间过得那么飞快,使我的小心眼儿里不只是着急,还有悲伤.有一天,我放学回家,看到太阳快落山了,就下决心说:"我要比太阳更快地回家."我狂奔回去,站在庭院前喘气的时候,看到太阳还露着半边脸,我高兴地跳跃起来,那一天我跑赢了太阳.以后我就时常做那样的游戏,有时和太阳赛跑...</p>
+          </div>
+          <div class="autor"><span class="lm f_l"><a href="index.html">YGH个人博客</a></span><span class="dtime f_l">2014-02-19</span><span class="viewnum f_l">浏览（<a href="#" onclick="return false">459</a>）</span><span class="pingl f_l">喜欢（<a href="#" onclick="return false">30</a>）</span><span class="f_r"><a href="./share/3.html" class="more">阅读原文</a></span></div>
+        </li>
+      </ul>
+      <ul id="list2">
+      </ul>
+      <script src="js/page2.js"></script> 
+    </div>
+  </div>
+  <div class="rightbox">
+    <div class="aboutme">
+      <h2 class="ab_title">关于我</h2>
+      <div class="avatar"><img src="images/b04.jpg" /></div>
+      <div class="ab_con">
+        <p>网名：MONSTER | 大蟒蛇</p>
+        <p>职业：Web前端设计师、网页设计 </p>
+        <p>籍贯：贵州省—凯里市</p>
+        <p>邮箱：374914060@qq.com</p>
+      </div>
+    </div>
+    <div class="blank"></div>
+    <div class="search">
+      <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="show" value="title" type="hidden">
+        <input name="tempid" value="1" type="hidden">
+        <input name="tbname" value="news" type="hidden">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    <div class="paihang">
+      <h2 class="ab_title"><a href="./index.html">本栏推荐</a></h2>
+      <ul>
+    
+       
+        <li><b><a href="1.html" target="_blank">个人博客，属于我的小世界！</a></b>
+          <p><i><a href="1.html" title="个人博客，属于我的小世界！"><img src="./images/762f99f369ae786f970477feeb3b9d77.jpg" alt="个人博客，属于我的小世界！"></a></i>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本...</p>
+        </li>
+      </ul>
+    </div>
+    <div class="paihang">
+      <h2 class="ab_title"><a href="./index.html">点击排行</a></h2>
+      <ul>
+    
+       <li><b><a href="1.html" target="_blank">个人博客，属于我的小世界！</a></b>
+         <p><i><a href="1.html" title="个人博客，属于我的小世界！"><img src="./images/762f99f369ae786f970477feeb3b9d77.jpg" alt="个人博客，属于我的小世界！"></a></i>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本...</p>
+       </li>
+       
+        <li><b><a href="2.html" target="_blank">安静地做一个爱设计的man</a></b>
+          <p><i><a href="2.html" title="安静地做一个爱设计的man"><img src="./images/917d732926d79cc2ae1012831ce51d1e.jpg" alt="安静地做一个爱设计的man"></a></i>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个...</p>
+        </li>
+      
+        <li><b><a href="3.html" target="_blank">【匆匆那些年】总结个人博客经历的这四年</a></b>
+          <p><i><a href="3.html" title="【匆匆那些年】总结个人博客经历的这四年"><img src="./images/3f0b6da48a6fd4e626a021ff7bd0d74f.jpg" alt="【匆匆那些年】总结个人博客经历的这四年"></a></i>博客从最初的域名购买，到上线已经有四年的时间了，这四年的时间，有笑过，有怨过，有悔过，...</p>
+        </li>
+      </ul>
+    </div>
+    <div class="links">
+      <h2 class="ab_title">友情链接</h2>
+      <ul>
+        <li><a href="/">YGH个人博客</a></li>
+        <li><a href="/">个人博客模板</a></li>
+        <li><a href="/">优秀个人博客</a></li>
+      </ul>
+    </div>
+    <div class="weixin">
+      <h2 class="ab_title">微信关注</h2>
+      <ul>
+        <img src="images/wx.jpg">
+      </ul>
+    </div>
+  </div>
+</article>
+<footer>
+  <footer>
+    <p>Design by <a href="../index.html">杨青个人博客</a> <a href="#" onclick="return false">蜀ICP备11002373号-1</a></p>
+  </footer>
+</footer>
+</body>
+</html>
+
